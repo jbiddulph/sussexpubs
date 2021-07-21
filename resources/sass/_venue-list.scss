@@ -1,0 +1,25 @@
+/** WELCOME **/
+.welcome {
+    .venue-card {
+        transition: transform 0.3s;
+        width:100%;
+        //transition-timing-function: ease-in-out;
+        .mainpic {
+            img {
+                width:100%;
+            }
+        }
+    }
+    .venue-card:hover {
+        transform: scale(1.03);
+    }
+}
+.grid-list {
+    width:161px;
+    margin: 0px 10px;
+    display: inline-flex;
+}
+#venueList label.form-check-label {
+    font-size: 20px!important;
+}
+/** END WELCOME **/

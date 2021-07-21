@@ -1,0 +1,39 @@
+.search-block {
+    background-color:$primary-color;
+    color:#ffffff;
+    padding: 20px;
+}
+.mainpic {
+    position: relative;
+    span {
+        position: absolute;
+        left: 0px;
+        bottom:0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        padding: 0px 8px;
+        font-size:0.8rem;
+    }
+    h5 {
+        position:absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.5);
+        color:#ffffff;
+        padding:6px;
+    }
+}
+.mainpic {
+    position: relative;
+    .carousel-caption {
+        bottom: -8px;
+        left:0%;
+    }
+    h3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding:6px;
+    }
+}
